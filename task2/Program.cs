@@ -9,14 +9,14 @@ int numberB = Convert.ToInt32(Console.ReadLine());
 
 if ( numberA == numberB )
 {
-    Console.WriteLine("Числа a и b равны. ( {0} == {0})",numberA,numberB);
+    Console.WriteLine($"Числа a и b равны. ( {numberA} == {numberA})");
 }
 else
     if ( numberA > numberB )
     {
-        Console.WriteLine("Число a больше b. ( {0} > {0})",numberA,numberB);
+        Console.WriteLine($"Число a больше b. ( {numberA} > {numberB})");
     }
     else
     {
-        Console.WriteLine("Число a меньше b. ( {0} < {0})",numberA,numberB);
+        Console.WriteLine($"Число a меньше b. ( {numberA} < {numberB})");
     }
