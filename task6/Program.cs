@@ -6,7 +6,7 @@ Console.Write("Введите число: ");
 
 int x = Convert.ToInt32(Console.ReadLine());
 
-if ( (x % 2) ==0 )
+if ( (x % 2) ==0 )  // Проверка на четность
 {
     Console.WriteLine($"Число {x} является четным");
 }
